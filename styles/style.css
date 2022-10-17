@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
+/* გამომდინარე იქიდან რომ დიზაინი გათვლილია დიდ ეკრანზე(1920პიქსელზე), ლეპტოპზე ვიზუალი არ ჩანს კარგად
+*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 77px;
+    margin-left: 132px;
+    margin-right: 118px;
+    margin-bottom: 264px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+    display: flex;
+}
+
+header a {
+    color: #3D37F1;
+}
+
+#logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#logo span {
+    font-weight: 300;
+}
+
+nav a {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+#section1 {
+    margin-right: 80px;
+    margin-left: 132px;
+    background-image: url(../assets/main.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    padding-bottom: 278px;
+}
+
+#left {
+    width: 605px;
+}
+
+h2 {
+    color: #534D4D;
+    font-size: 78px;
+    line-height: 85px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 57px;
+}
+
+#left p {
+    color: #534D4D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    height: 103px;
+    margin-bottom: 84px;
+}
+
+#left button {
+    display: flex;
+    align-items: center;
+    background-color: #3D37F1;
+    color: #F4F4FE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    border-radius: 150px;
+    width: 264px;
+    height: 77px;
+}
+
+#left button img {
+    margin-right: 24px;
+    margin-left: 43px;
+}
+
+#section2 {
+    background-color: #FBFCFD;
+    padding-top: 92px;
+    padding-bottom: 133px;
+}
+
+#upper-part {
+    width: 713px;
+    margin: 0 auto 67px auto;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #3D37F1;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 31px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #5E5858;
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+#upper-part p {
+    text-align: center;
+    color: #848484;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#lower-part {
+    margin-left: 375px;
+    margin-right: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
+}
+
+#lower-part>div {
+    width: 370px;
+    position: relative;
+    z-index: 30;
+}
+
+#flex-item1::after,
+#flex-item2::after,
+#flex-item3::after,
+#flex-item4::after,
+#flex-item5::after,
+#flex-item6::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    position: absolute;
+    display: block;
+}
+
+#flex-item1::after {
+    background-color: #F4B576;
+}
+
+#flex-item2::after {
+    background-color: #31BDCC;
+}
+
+#flex-item3::after {
+    background-color: #4B3C6D;
+}
+
+#flex-item4::after {
+    background-color: #3E83D1;
+}
+
+#flex-item5::after {
+    background-color: #A29FF5;
+}
+
+#flex-item6::after {
+    background-color: #FB7E85;
+}
+
+#lower-part img {
+    display: block;
+    margin: 88px auto 60px auto;
+}
+
+h5 {
+    color: #FEFBF8;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 17px
+}
+
+#lower-part p {
+    margin: 0 21px 21px 21px;
+    color: #FEFBF8;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#lower-part button {
+    width: 131px;
+    height: 45px;
+    background: none;
+    border: 2px solid #FEFBF8;
+    border-radius: 30px;
+    margin: 0 auto 38px auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #FEFBF8;
+    display: block;
+}
+
+#lower-part button#active {
+    background-color: #FEFBF8;
+    color: #3D37F1;
+}
